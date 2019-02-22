@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Text Dungeon</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<style>
+	body {
+		background-color: black; 
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+	} 
+
+	h1 {
+		color: white;
+	}
+
+	h3 {
+		color: white;
+		border: solid 2px lightgrey;
+		border-radius: 5px;
+		padding: 10px;
+		max-width: 200px;
+	}
+
+	img {
+		width: 400px;
+		height: 400px;
+		border: solid 2px lightgrey;
+	}
+
+	button {
+		display: inline;
+		padding: 5px;
+		margin: 10px;
+		border-radius: 5px;
+	}
+
+	p {
+		color: white;
+		font-size: 14px;
+		max-width: 500px;
+		letter-spacing: 1px;
+	}
+
+	img {
+		display: none;
+	}
+
+	#button_2 {
+		display: none;
+	}
+
+	#message_2 {
+		display: none;
+	}
+
+	.action_btn {
+		display: block;
+		float: right;
+		max-width: 100px;
+	}
+
+	.wrapper {
+		margin: 50px 300px 30px 300px;
+	}
+
+	.message {
+		border: solid 1px lightgrey;
+		border-radius: 5px;
+		padding: 10px;
+		line-height: 2em;
+	}
+
+	.name {
+		font-size: 1.25em;
+	}
+
+
+
+</style>
+<body id="background">
+	<div class="wrapper">
+
+	
+		<h1 id="heading1"></h1>
+		<h3 class="shake" id="heading3">Welcome to the Text Dungeon</h3>
+
+		<img id="image" src="img/Entrance.png"> 
+
+		<p class="message" id="message_1">Press YES to enter.</p>
+		<p class="message" id="message_2"></p>
+
+		<button onclick="progress()" id="button_1"> YES </button>
+		<button id="button_2"></button>
+
+		<div class="enemyStats">
+			<p id="enemyName" class="name"></p>
+			<p id="enemyLevel"></p>
+			<p id="enemyHealth"></p>
+		</div>
+
+		<div class="playerStats">
+			<p id="playerName" class="name"></p>
+			<p id="playerLevel"></p>
+			<p id="playerHealth"></p>
+		</div>
+
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

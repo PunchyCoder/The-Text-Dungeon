@@ -1,0 +1,9 @@
+Entry Way:
+	Upon entering you immediately smell the stench of blood as you come through a narrow walkway. At the far end, a door and a torch on both sides. The ground is made of worn stone tiles that have been stained with blood and any number of strange fluids.
+	-The front door is locked-
+
+Look left:
+	A viscous looking dark fluid mingles with a puddle of blood. There's a door that seems to ooze the dark goo, not the blood. Against the wall a mop and pail sit on the floor near the puddle. Apparently whoever started cleanup didn't finish and left in a hurry. Whatever's blood is spilt looks like it was dragged through the door.
+
+Look Right:
+	a doorless dark walkway seems to go on forever. beside the walkway on the wall a torch sits. many old stains of footprints trail down this walkway.. 
